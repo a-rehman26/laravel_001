@@ -1,0 +1,1 @@
+<h2>Redirect file</h2>
