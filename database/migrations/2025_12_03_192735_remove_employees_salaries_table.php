@@ -13,9 +13,7 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::table('employees', function (Blueprint $table) {
-            Schema::dropIfExists('employees_salaries');
-        });
+        Schema::dropIfExists('employees_salariees');
     }
 
     /**
@@ -25,8 +23,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::table('eployees', function (Blueprint $table) {
-            //
-        });
+        //
     }
 };

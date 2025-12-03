@@ -15,8 +15,12 @@ return new class extends Migration
     {
         Schema::create('employees_salariees', function (Blueprint $table) {
             $table->id();
-            $table->integer('e_s_id');
-            $table->foreign('e_s_id')->references('emp_id')->on('employees');
+            // IMPORTANT: unsignedInteger so FK matches employees.emp_id
+            $table->unsignedInteger('e_s_id');
+            $table->foreign('e_s_id')->references('emp_id')
+                ->on('employees')
+                ->onDelete('cascade')
+                ->onUpdate('cascade');
             $table->string('emp_testing_column');
             $table->timestamps();
         });

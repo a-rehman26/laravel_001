@@ -18,7 +18,9 @@ return new class extends Migration
             // $table->dropColumn('stu_cnic');
             // $table->string('stu_test')->after('stu_age');
             // $table->string('stu_test');
-            $table->dropColumn('stu_test');
+            if (Schema::hasColumn('student', 'stu_test')) {
+                $table->dropColumn('stu_test');
+            }
         });
     }
 
