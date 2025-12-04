@@ -63,7 +63,7 @@
         </div>
 
         <div class="footer-bottom">
-            © 2025 BrandName • All Rights Reserved.
+            © 2025 A_Rehman • All Rights Reserved.
         </div>
     </footer>
 
