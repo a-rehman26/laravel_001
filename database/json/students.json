@@ -1,0 +1,38 @@
+[
+    {
+      "stu_id": 5,
+      "stu_name": "Noman",
+      "stu_age": 28,
+      "stu_city": "Quetta"
+    },
+    {
+      "stu_id": 6,
+      "stu_name": "Fahad",
+      "stu_age": 25,
+      "stu_city": "Multan"
+    },
+    {
+      "stu_id": 7,
+      "stu_name": "Usman",
+      "stu_age": 21,
+      "stu_city": "Sialkot"
+    },
+    {
+      "stu_id": 8,
+      "stu_name": "Hamza",
+      "stu_age": 23,
+      "stu_city": "Faisalabad"
+    },
+    {
+      "stu_id": 9,
+      "stu_name": "Shahbaz",
+      "stu_age": 30,
+      "stu_city": "Hyderabad"
+    },
+    {
+      "stu_id": 10,
+      "stu_name": "Rizwan",
+      "stu_age": 27,
+      "stu_city": "Rawalpindi"
+    }
+]
