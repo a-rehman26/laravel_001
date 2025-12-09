@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\testController;
+use App\Http\Controllers\UsersController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -139,3 +140,7 @@ Route::controller(UserController::class)->group(function () {
 // invoke class and methods auto call when class call method also call
 Route::get('/invoke_test01', testController::class);
 Route::get('/invoke_test02', [testController::class, 'test']);
+
+// routes for controller model get data 
+
+Route::get('/showUsers', [UsersController::class, 'showUsers']);

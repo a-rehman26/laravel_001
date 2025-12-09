@@ -1,0 +1,33 @@
+[
+    {
+        "u_name": "Ali Khan",
+        "u_age": 18,
+        "u_email": "ali@example.com",
+        "u_address": "Karachi"
+    },
+    {
+        "u_name": "zafar Khan",
+        "u_age": 22,
+        "u_email": "zafar@example.com",
+        "u_address": "Lahore"
+    },
+    {
+        "u_name": "Asim Khan",
+        "u_age": 32,
+        "u_email": "Asim@example.com",
+        "u_address": "Karachi"
+    },
+    {
+        "u_name": "Wahab Khan",
+        "u_age": 35,
+        "u_email": "Wahab@example.com",
+        "u_address": "Lahore"
+    },
+    {
+        "u_name": "Abdullah Khan",
+        "u_age": 41,
+        "u_email": "Abdullah@example.com",
+        "u_address": "Karachi"
+    }
+   
+]
