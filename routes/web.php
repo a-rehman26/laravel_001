@@ -141,6 +141,6 @@ Route::controller(UserController::class)->group(function () {
 Route::get('/invoke_test01', testController::class);
 Route::get('/invoke_test02', [testController::class, 'test']);
 
-// routes for controller model get data 
+// route for controller model get data 
 
 Route::get('/showUsers', [UsersController::class, 'showUsers']);
